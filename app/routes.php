@@ -15,7 +15,7 @@ return function (App $app) {
     });
 
     $app->get('/', function (Request $request, Response $response) {
-        $response->getBody()->write('Hello world!');
+        $response->getBody()->write('PHPSandbox says: Hello world 👋🏽! from <b>Slim</b>');
         return $response;
     });
 
